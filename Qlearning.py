@@ -20,7 +20,7 @@ for row in range(0,6):
             R_av[row].append(col)
 
 #我们循环十带
-for i in range(0,10000):
+for i in range(0,1000):
         state = rd.randint(0, 5)
         nextstate = 0;
         #如果第一次为5，那么为了避免多代，这时候，我们就只做一次
